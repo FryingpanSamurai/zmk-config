@@ -63,7 +63,12 @@
 
 / {
     chosen {
-        zmk,underglow = &led_strip;
+        zmk,underglow = &led_strip; 
+    };
+};
+
+/ {
+    chosen { 
         zmk,backlight = &backlight;
     };
 };
